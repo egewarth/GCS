@@ -22,6 +22,7 @@ jobs:
         branch: master
         heroku:
           appname: gcs01-egewarth-circle
+          heroku config:set DISABLE_COLLECTSTATIC=1
 
     steps:
       - checkout
