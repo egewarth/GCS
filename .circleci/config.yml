@@ -50,7 +50,7 @@ jobs:
           path: test-reports
           destination: test-reports
 
-      deployment:
+      - deployment:
         staging:
           branch: master
             heroku:
